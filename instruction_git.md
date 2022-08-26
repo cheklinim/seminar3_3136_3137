@@ -133,6 +133,11 @@ VSСode дает возможность выбрать какое изменен
 
 Выгрузка репозитория из удаленного в локальный
 
+    git clone 
+    git pull 
+
 Загрузка репозитория из локального в удаленный
 
-
+    git remote add origin … 
+    git branch -M master
+    git push -u origin master
