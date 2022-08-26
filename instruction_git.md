@@ -116,3 +116,15 @@ VSСode дает возможность выбрать какое изменен
     git branch -d <имя_ветки>
 
 ### Удаленные репозитории
+
+Наиболее распространенные сервисы для работы с репозиториями Git:
+
+* http://bitbucket.org 
+
+* http://chiselapp.com 
+
+* **https://github.com**
+
+* https://about.gitlab.com
+
+* https://hub.jazz.net 
