@@ -123,3 +123,13 @@ VSСode дает возможность выбрать какое изменен
 
 Перейдите на https://github.com и войдите в свой аккаунт. Нажмите кнопку New repository (Новый репозиторий). На открывшейся странице введите имя репозитория (Repository name) и нажмите кнопку Create repository.
 
+### Связывание локального и удаленного репозитория
+
+С помощью следующих команд можно связать локальный и удаленные репозитории:
+
+    git remote add origin https://github.com/YuliaFilatova/1.git
+    git branch -M main
+    git push -u origin main
+
+вместо https://github.com/YuliaFilatova/1.git нужно использовать собственный URL-адрес репозитория для ссылки.
+
