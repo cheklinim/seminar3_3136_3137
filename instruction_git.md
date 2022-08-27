@@ -125,5 +125,23 @@ VSСode дает возможность выбрать какое изменен
 
 Перейдите *на https://github.com* и войдите в свой аккаунт. Нажмите кнопку *New repository* (Новый репозиторий). На открывшейся странице введите имя репозитория (Repository name) и нажмите кнопку _Create repository_. Данная команда добавит удаленный репозиторий с именем origin, который указывает на ваш Github-репозиторий.
 
+### Связывание локального и удаленного 
+Выбираем нужный раздел и копируем код. Вставляем в наш терминал.
 
+…or create a new repository on the command line
+    echo "# -" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/Odarochka1802/-.git
+    git push -u origin main
+
+…or push an existing repository from the command line
+    git remote add origin https://github.com/Odarochka1802/-.git
+    git branch -M main
+    git push -u origin main
+
+…or import code from another repository
+You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
