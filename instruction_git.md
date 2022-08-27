@@ -163,3 +163,19 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 В терминала набираем команду 
     git clone <ссылка на репозиторий>
 
+### Отправить автору
+
+Чтобы предложить свою работу автору выбираем 
+
+    Compare & pull request
+
+Или
+
+    Contribute > Open pull request
+
+Появляется окно с данными отправителя и получателя.
+Возможность описания.
+После
+
+    Create pull request
+
