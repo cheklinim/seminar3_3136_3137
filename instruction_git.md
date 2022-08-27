@@ -145,3 +145,8 @@ VSСode дает возможность выбрать какое изменен
 …or import code from another repository
 You can initialize this repository with code from a Subversion, Mercurial, or TFS project.
 
+### Загрузка
+
+Загрузка с удаленного репозитория производится командой:
+    git pull
+
