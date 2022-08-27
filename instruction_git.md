@@ -150,3 +150,8 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 Загрузка с удаленного репозитория производится командой:
     git pull
 
+### Выгрузка
+
+Выгрузить на удаленный репозиторий команда:
+    git push
+
