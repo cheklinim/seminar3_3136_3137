@@ -155,3 +155,11 @@ You can initialize this repository with code from a Subversion, Mercurial, or TF
 Выгрузить на удаленный репозиторий команда:
     git push
 
+### Работа с чужим репозиторием
+
+Для подключения к чужому репозиторию выбираем команду 
+    fork
+
+В терминала набираем команду 
+    git clone <ссылка на репозиторий>
+
