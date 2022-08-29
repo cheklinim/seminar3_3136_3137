@@ -116,3 +116,11 @@ VSСode дает возможность выбрать какое изменен
     git branch -d <имя_ветки>
 
 ### Команды для работы с GitHub
+
+    git push
+
+    git pull
+
+Fork
+
+Pull request
