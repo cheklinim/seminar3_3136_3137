@@ -131,9 +131,9 @@ VSСode дает возможность выбрать какое изменен
 
 позволяет создавать, просматривать и удалять подключения к другим репозиториям.
 
-git remote add origin <адрес>
-git branch -M main
-git push -u origin main
+    git remote add origin <адрес>
+    git branch -M main
+    git push -u origin main
 
 ### push, pull, fork, pull request
 
