@@ -158,7 +158,7 @@ If local repository already exist, you can upload it on GitHub. To do that creat
 
 Now your local and remote repositories connected.
 
-### Commands push, pull, clone, fork, pull request
+### Commands push, pull, clone
 
 When local and remote repositories are linked (and you have full access to modify it on GitHub), you can work with your file on computer. To upload modified file on GitHub use command:
 
@@ -180,8 +180,12 @@ After that you need to switch to a folder with repository:
 
 You can work with this files, but **can't push** the modified file back to this repository if you don't have access from repository's owner.
 
+### Commands fork, pull request
+
 If you want to participate in any third-party project, follow the instruction.
 
 1. Find repository tou interested in;
 2. Click button 'Fork' (it will copy repository to your account);
-3. 
+3. Clone this copy to your computer;
+4. !!! **Create _new branch_, don't modify master branch** !!!;
+5. After changing files push it on GitHub (Terminal give you a hint how do that);
