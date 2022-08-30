@@ -124,9 +124,31 @@ And also you can participate in third-party project which you interested in and 
 
 ### Create new repository on GitHub
 
-Firat of all create an account on GitHub. Then in profile click to button 'New' in 'Repositories' menu.
+Firat of all create an account on GitHub. Then in profile click to button 'New' in 'Repositories' menu. 
+After that GitHub give you instruction what to do.
+
+You can create new file right on GitHub and start working with it...
+
+…or create a new repository on the command line:
+
+    echo "# 111" >> README.md
+    git init
+    git add README.md
+    git commit -m "first commit"
+    git branch -M main
+    git remote add origin https://github.com/vfyb/111.git
+    git push -u origin main
+
+…or push an existing repository from the command line (be sure that main branch have right name. If not - replace 'main' with 'master'):
+
+    git remote add origin https://github.com/vfyb/111.git
+    git branch -M main
+    git push -u origin main
+    
+…or import code from another repository
 
 ### Link local and remote repositories
 
+Click on repository you need to enter in it. 
 
 ### Commands push, pull, fork, pull request
