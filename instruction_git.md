@@ -120,7 +120,7 @@ VSСode дает возможность выбрать какое изменен
 Remote repository give ability to work from different locations and gadgets. 
 And always have up-to-date version of working file anytime and anywere.
 Also it useful when you share your project for a team, which can working on this project at the same time.
-And also you can participate in third-party project which you interested in and suggest your solution of any porblem.
+And also you can participate in third-party project which you interested in and suggest your solution of any problem.
 
 ### Create new repository on GitHub
 
@@ -156,11 +156,11 @@ If local repository already exist, you can upload it on GitHub. To do that creat
     git branch -M main
     git push -u origin main
 
-Now your local and remote repositories connected.
+Now your local and remote repositories are linked.
 
 ### Commands push, pull, clone
 
-When local and remote repositories are linked (and you have full access to modify it on GitHub), you can work with your file on computer. To upload modified file on GitHub use command:
+When local and remote repositories are linked (and you have full access to modify it on GitHub), you can work with your files on computer. To upload modified repository on GitHub use command:
 
     git push
 
@@ -178,19 +178,19 @@ After that you need to switch to a folder with repository:
 
 **WARNING!**
 
-You can work with this files, but **can't push** the modified file back to this repository if you don't have access from repository's owner.
+You can work with this repository, but **can't push** the modified files back to parent repository if you don't have access from repository's owner.
 
 ### Commands fork, pull request
 
-If you want to participate in any third-party project, follow the instruction.
+If you want to participate in any third-party project, follow the instruction:
 
-1. Find repository tou interested in;
+1. Find repository you interested in;
 2. Click button 'Fork' (it will copy repository to your account);
 3. Clone this copy to your computer;
 4. !!! **Create _new branch_, don't modify master branch** !!!;
 5. After changing files push it on GitHub (Terminal give you a hint how do that);
-6. On GitHub appear button 'Compare & Pull request' - click it;
+6. On GitHub appear button 'Compare & Pull request' - click on it;
 7. In next window write the description and click button 'Create pull request';
 8. Thats all )
 
-
+## The end
