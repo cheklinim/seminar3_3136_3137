@@ -168,7 +168,7 @@ To download actual version from GitHub use command:
 
     git pull
 
-You can pull any open repository from GitHub. You can work with this files, but can't push the modified file back to this repository. To pull third-party repository use 'clone' command:
+You can pull any open repository from GitHub. To pull third-party repository use 'clone' command:
 
     git clone <https://github.com/user_name/repo_name.git>
 
@@ -176,4 +176,12 @@ After that you need to switch to a folder with repository:
 
     cd <folder_name>
 
-If you don't have access for mo
+**WARNING!**
+
+You can work with this files, but **can't push** the modified file back to this repository if you don't have access from repository's owner.
+
+If you want to participate in any third-party project, follow the instruction.
+
+1. Find repository tou interested in;
+2. Click button 'Fork' (it will copy repository to your account);
+3. 
