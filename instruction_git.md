@@ -159,3 +159,5 @@ If local repository already exist, you can upload it on GitHub. To do that creat
 Now your local and remote repositories connected.
 
 ### Commands push, pull, fork, pull request
+
+When local and remote repositories linked, you can work with your file on computer
