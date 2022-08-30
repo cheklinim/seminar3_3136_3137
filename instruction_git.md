@@ -117,6 +117,10 @@ VSСode дает возможность выбрать какое изменен
 
 ## Remote repository
 
+Remote repository give ability to work from different locations and gadgets. 
+And always have up-to-date version of working file anytime and anywere.
+Also it useful when you share your project for a team, which can working on this project at the same time.
+And also you can participate in third-party project which you interested in and suggest your solution of any porblem.
 
 ### Create new repository on GiyHub
 
