@@ -115,4 +115,13 @@ VSСode дает возможность выбрать какое изменен
 
     git branch -d <имя_ветки>
 
-## Remote repo
+## Remote repository
+
+
+### Create new repository on GiyHub
+
+
+### Link local and remote repositories
+
+
+### Commands push, pull, fork, pull request
