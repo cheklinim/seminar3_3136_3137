@@ -160,4 +160,7 @@ Now your local and remote repositories connected.
 
 ### Commands push, pull, fork, pull request
 
-When local and remote repositories linked, you can work with your file on computer
+When local and remote repositories linked, you can work with your file on computer. To upload modified file on GitHub use command:
+
+    git push
+
