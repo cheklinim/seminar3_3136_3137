@@ -188,7 +188,10 @@ If you want to participate in any third-party project, follow the instruction:
 2. Click button 'Fork' (it will copy repository to your account);
 3. Clone this copy to your computer;
 4. !!! **Create _new branch_, don't modify master branch** !!!;
-5. After changing files push it on GitHub (Terminal give you a hint how do that);
+5. After changing files push it on GitHub. Terminal give you a hint how do that:
+
+    git push --set-upstream origin remote
+
 6. On GitHub appear button 'Compare & Pull request' - click on it;
 7. In next window write the description and click button 'Create pull request';
 8. Thats all )
