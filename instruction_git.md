@@ -156,5 +156,6 @@ If local repository already exist, you can upload it on GitHub. To do that creat
     git branch -M main
     git push -u origin main
 
+Now your local and remote repositories connected.
 
 ### Commands push, pull, fork, pull request
