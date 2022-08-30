@@ -139,16 +139,22 @@ You can create new file right on GitHub and start working with it...
     git remote add origin https://github.com/vfyb/111.git
     git push -u origin main
 
-…or push an existing repository from the command line (be sure that main branch have right name. If not - replace 'main' with 'master'):
+…or push an existing repository from the command line:
 
-    git remote add origin https://github.com/vfyb/111.git
+    git remote add origin https://github.com/user_name/repo_name.git
     git branch -M main
     git push -u origin main
     
 …or import code from another repository
 
+
 ### Link local and remote repositories
 
-Click on repository you need to enter in it. 
+If local repository already exist, you can upload it on GitHub. To do that create new repository on GitHub and then copy this three line of code to terminal of local repository in VSC (be sure that main branch have right name. If not - replace 'main' with 'master'):
+
+    git remote add origin https://github.com/user_name/repo_name.git
+    git branch -M main
+    git push -u origin main
+
 
 ### Commands push, pull, fork, pull request
